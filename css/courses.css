@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-container-grid {
+    display: grid;
+    grid-template-rows: 1fr 13fr 1fr;
+    grid-row-gap: 1em;
+}
+
+.logo-name {
+    line-height: 50px;
+    margin-left: 10px;
+}
+
+.left-nav {
+    padding: 5px 10px;
+}
+
+.left-nav>li {
+    border: 1px solid #f1f1f1;
+}
+
+.left-nav>li>a {
+    display: block;
+    padding: 15px;
+}
+
+.r1 {
+    background-color: #ccc;
+}
+
+.r2 {
+    background-color: #f1f1f1;
+}
+
+.r2c1,
+.r2c3 {
+    background-color: #ccc;
+}
+
+td {
+    padding: 10px;
+}
+
+.course-table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.course-table>thead>tr>td {
+    border: 1px solid #AAA;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #8fbe8f;
+}
+.copyright-text {
+    align-self: center;
+    justify-self: center;
+}
+.course-table>thead>tr {
+    height: 50px;
+    text-align: center;
+}
+.course-table>tbody>tr {
+    height: 28px;
+}
+
+.course-table>tbody>tr >td {
+    border: 1px solid #141459;
+}
+.r3 {
+    background-color: #ccc;
+}
+
+.r1,
+.r2,
+.r3 {
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr;
+    grid-column-gap: 1em;
+}
